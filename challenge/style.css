@@ -1,0 +1,19 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #bada55; }
+
+/* SET THE font-size OF THE BUTTON TO BE
+   THE $size DIVIDED BY 10 */
+/* BONUS ROUND: IF YOU COMPLETE THAT, THEN
+   CREATE AN IF STATEMENT TO MAKE SURE THE
+   FONT DOESN'T GO SMALLER THAN 12px */
+.btn {
+  width: 100px;
+  height: 50px;
+  font-size: 10px;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */

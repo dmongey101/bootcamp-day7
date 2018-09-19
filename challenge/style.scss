@@ -1,0 +1,39 @@
+@mixin box($size, $background-color) {
+    
+    width: $size;
+    height: $size/2;
+    background-color: $background-color;
+}
+    
+    .box {
+        @include box(200px, #bada55);
+}
+
+/* SET THE font-size OF THE BUTTON TO BE
+   THE $size DIVIDED BY 10 */
+
+/* BONUS ROUND: IF YOU COMPLETE THAT, THEN
+   CREATE AN IF STATEMENT TO MAKE SURE THE
+   FONT DOESN'T GO SMALLER THAN 12px */
+
+@mixin newbutton($color, $size) {
+    
+    $font-size: $size/10;
+    
+    width: $size;
+    height: $size / 2;
+    font-size: $font-size;
+    background-color: $color;
+    border-radius: 5px;
+    
+    @if $font-size < 120 {
+        font-size: 12px;
+    }
+    @else {
+        font-size: $font-size ;
+    }
+}
+
+.btn {
+    @include newbutton(black, 100px);
+}

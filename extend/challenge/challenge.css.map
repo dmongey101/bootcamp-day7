@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,QAAS;EACL,gBAAgB,EANX,OAAO;EAOZ,KAAK,EANA,OAAO;EAOZ,KAAK,EAND,KAAK;EAOT,MAAM,EAAE,KAAQ;EAEhB,UAAE;IACE,WAAW,EAAE,SAAS;EAG1B,cAAQ;IACJ,gBAAgB,EAff,OAAO;IAgBR,KAAK,EAjBJ,OAAO",
+"sources": ["challenge.scss"],
+"names": [],
+"file": "challenge.css"
+}
